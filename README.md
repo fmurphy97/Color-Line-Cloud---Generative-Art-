@@ -23,7 +23,26 @@ Finally, the code generates a string of lines by connecting each point to its ne
 The project uses Python as the main programming language and relies on the following libraries: Pillow for image processing, NumPy for color calculations, and Matplotlib for plotting.
 
 ## How to Run
+This Jupyter notebook creates an abstract art plot using the average color of each tile in an input image.
 
+### Prerequisites
+
+To run this notebook, you'll need:
+
+- Python 3.x
+- Jupyter Notebook
+- Pillow
+- NumPy
+- Matplotlib
+
+### Instructions
+Open *"generate_line_art.ipynb"* in Jupyter Notebook.
+Set the img_path variable to the path of your input image.
+Set the grid_size variable to adjust the total number of points used. The higher the number, the more detailed the resulting plot will be.
+Run each cell in the notebook in order.
+The final cell will display the generative art plot based on your input image, and will be saved as "result.png".
+
+Note: for a more detailed and lightweight file change the output to svg mode
 
 ## Future Improvements
 Potential future improvements for this project include exploring different line patterns, such as curved lines, and other parameters to create more varied and personalized generative art plots.
